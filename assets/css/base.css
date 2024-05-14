@@ -1,0 +1,40 @@
+:root {
+    /* Màu chính */
+    --primary-color: #3fd0d4;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    
+
+    --header-navbar-height: 46px;
+    --header-with-nav-wrap-height: 80px;
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px;
+}
+
+*{
+    /* Inherit kế thừa các thẻ chứa có thuộc tính box-sizing */
+    box-sizing: inherit;
+}
+
+html {
+    /* Nếu font-size: 100% -> 1rem = 16px */
+    /* Nếu font-size: 62.5% -> 1rem = 10px */
+    font-size: 62.5%;
+    /* 16px */
+    line-height: 1.6rem; 
+    /* sans-serif: chủng chữ không có chân */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.mg-r-12{
+    margin-right: 12px;
+}
+
+.mg-b-12 {
+    margin-bottom: 12px;
+}
